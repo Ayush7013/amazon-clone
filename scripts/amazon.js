@@ -67,7 +67,7 @@ products.forEach((product) => {
         
         let cartQuantity = 0;
         cart.forEach((item) => {
-          cartQuantity += item.quantity_of_product;
+          cartQuantity += item.quantity;
         });
 
         document.querySelector('.js-cart-quantity')
